@@ -21,19 +21,34 @@ import { IoDiamond } from "react-icons/io5";
 
 export const categories = [
     {
-        label: 'Beach',
+        label: 'Bars',
         icon: TbBeach,
         description: 'This property is close to the beach!'
     },
     {
-        label: 'Windmills',
+        label: 'Hotels',
         icon: GiWindmill,
         description: 'This property has windmills!'
     },
     {
-        label: 'Modern',
+        label: 'Resturants',
         icon: MdOutlineVilla,
         description: 'This property is modern!'
+    },
+    {
+        label: 'Agencies',
+        icon: GiCastle,
+        description: 'This property is in a castle!'
+    },
+    {
+        label: 'Religious',
+        icon: GiBarn,
+        description: 'This property is in the barn!'
+    },
+    {
+        label: 'Lux',
+        icon: IoDiamond,
+        description: 'This property is luxurious!'
     },
     {
         label: 'Countryside',
@@ -56,14 +71,9 @@ export const categories = [
         description: 'This property is close to a lake!'
     },
     {
-        label: 'Skiing',
+        label: 'Parks',
         icon: FaSkiing,
         description: 'This property has skiing activities!'
-    },
-    {
-        label: 'Castles',
-        icon: GiCastle,
-        description: 'This property is in a castle!'
     },
     {
         label: 'Camping',
@@ -71,12 +81,12 @@ export const categories = [
         description: 'This property has camping activities!'
     },
     {
-        label: 'Arctic',
+        label: 'Markets',
         icon: BsSnow,
         description: 'This property has a pool!'
     },
     {
-        label: 'Cave',
+        label: 'Monasteries',
         icon: GiCaveEntrance,
         description: 'This property is in a cave!'
     },
@@ -85,16 +95,7 @@ export const categories = [
         icon: GiCactus,
         description: 'This property is in the desert!'
     },
-    {
-        label: 'Barns',
-        icon: GiBarn,
-        description: 'This property is in the barn!'
-    },
-    {
-        label: 'Lux',
-        icon: IoDiamond,
-        description: 'This property is luxurious!'
-    },
+
 ];
 const Categories = () => {
     const params = useSearchParams();

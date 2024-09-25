@@ -1,8 +1,8 @@
-# Full Stack Airbnb Clone with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth 2023
+# Full Stack TravelMate Clone with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth 2023
 
-This application is an Airbnb clone made in Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth 2023
+This application is an TravelMate clone made in Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth 2023
 
-You can view this application running in my website [gabrielcordeiro.dev](https://airbnb-clone.gabrielcordeiro.dev/)
+You can view this application running in my website [gabrielcordeiro.dev](https://TravelMate-clone.gabrielcordeiro.dev/)
 
 [VIDEO TUTORIAL](https://youtu.be/c_-b_isI4vg)
 
@@ -39,7 +39,7 @@ Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/gabrielscordeiro/airbnb-clone.git
+git clone https://github.com/gabrielscordeiro/TravelMate-clone.git
 ```
 
 ### Install packages
