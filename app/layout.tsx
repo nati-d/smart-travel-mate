@@ -1,7 +1,7 @@
-import { Nunito } from 'next/font/google'
+import { Nunito } from "next/font/google";
 
-import './globals.css'
-import type { Metadata } from 'next'
+import "./globals.css";
+import type { Metadata } from "next";
 import Navbar from "@/app/components/navbar/Navbar";
 import RegisterModal from "@/app/components/modals/RegisterModal";
 import ToasterProvider from "@/app/providers/ToasterProvider";
@@ -12,18 +12,18 @@ import Footer from "@/app/components/footer/Footer";
 import SearchModal from "@/app/components/modals/SearchModal";
 
 const font = Nunito({
-  subsets: ['latin']
-})
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
-  title: 'TravelMate',
-  description: 'TravelMate Clone',
-}
+  title: "TravelMate",
+  description: "TravelMate Clone",
+};
 
 export default async function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   const currentUser = await getCurrentUser();
   return (
@@ -35,11 +35,9 @@ export default async function RootLayout({
         <LoginModal />
         <SearchModal />
         <Navbar currentUser={currentUser} />
-        <div className="pb-20 pt-28">
-          {children}
-        </div>
+        <div className="pb-40">{children}</div>
         <Footer />
       </body>
     </html>
-  )
+  );
 }
