@@ -16,8 +16,8 @@ const font = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "TravelMate",
-  description: "TravelMate Clone",
+  title: "TourPal",
+  description: "Tour Guide",
 };
 
 export default async function RootLayout({
