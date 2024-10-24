@@ -58,8 +58,8 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                 </div>
             </div>
             {isOpen && (
-                <div className="absolute rounded-xl shadow-md w-[40vw] md:w-3/4 bg-white overflow-hidden right-0 top-12 text-sm">
-                    <div className="flex flex-col cursor-pointer">
+                <div className="absolute rounded-xl shadow-md w-[40vw] z-50 md:w-3/4 bg-white overflow-hidden right-0 top-12 text-sm">
+                    <div className="flex flex-col cursor-pointer ">
                             {currentUser ? (
                                 <>
                                     <MenuItem onClick={() => router.push('/trips')} label="My trips" />
